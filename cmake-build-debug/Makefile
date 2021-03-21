@@ -169,6 +169,33 @@ Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.cpp.s
 .PHONY : Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.cpp.s
 
+Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj: Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i: Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s: Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.obj
 	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.i
 	@echo ... Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s
 .PHONY : help
 
 
