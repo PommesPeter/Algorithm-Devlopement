@@ -27,6 +27,21 @@ void quick_sort(int q[], int l, int r) {
             swap(q[i], q[j]);
         }
     }
+    //Method 1:
+    /*
+     * while (i < j) {
+     *  do i++; while(q[i] < x);
+     *  do j--; while(q[j] > x);
+     * }
+     * */
+    //Method 2:
+    /*
+     * while (i < j) {
+     *  do j--; while (q[j] > x);
+     *  swap(q[i++], q[r]);
+     * }
+     *
+     * */
     //对当前左边界l到j的区间进行下一次快排
     quick_sort(q, l, j);
     //对j+1到当前右边界的区间进行快排
