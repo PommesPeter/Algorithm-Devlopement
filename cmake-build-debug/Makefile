@@ -141,32 +141,32 @@ Algorithm-Basic-Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
 .PHONY : Algorithm-Basic-Tutorial/fast
 
-Algorithm-Basic-Tutorial/ch3/n-queens.obj: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
+Algorithm-Basic-Tutorial/ch3/n-queens1.obj: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.obj
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.obj
 
 # target to build an object file
-Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
+Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
 
-Algorithm-Basic-Tutorial/ch3/n-queens.i: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+Algorithm-Basic-Tutorial/ch3/n-queens1.i: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i
 
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.i
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.i
 
 # target to preprocess a source file
-Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i
 
-Algorithm-Basic-Tutorial/ch3/n-queens.s: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+Algorithm-Basic-Tutorial/ch3/n-queens1.s: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
 
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.s
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.s
 
 # target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm-Basic-Tutorial
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.obj
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.i
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.s
+	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.obj
+	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.i
+	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.s
 .PHONY : help
 
 
