@@ -86,9 +86,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/bigInteger_div_template.cpp">
-			<Option target="Algorithm_Devlopement"/>
-		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp">
 			<Option target="Algorithm_Devlopement"/>
 		</Unit>

@@ -8,9 +8,9 @@
 #include <algorithm>
 
 using namespace std;
-
+// C = A / B 余数为r
 vector<int> div(vector<int> &A, int &b, int &r) {
-
+    //r为余数
     vector<int> C;
     r = 0;
     for (int i = A.size() - 1; i >= 0; i--) {

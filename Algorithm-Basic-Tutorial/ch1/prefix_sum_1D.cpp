@@ -1,4 +1,14 @@
-//
-// Created by 43459 on 3/21/2021.
-//
+/* Title: prefix_sum_1D
+ * Author: @PommesPeter
+ * Data:2021-03-21
+ * */
 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+
+    return 0;
+}
