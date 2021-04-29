@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp" "E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj"
+  "E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch3/n-queens.cpp" "E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

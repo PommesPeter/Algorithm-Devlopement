@@ -168,6 +168,33 @@ Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
 .PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
 
+Algorithm-Basic-Tutorial/ch3/n-queens.obj: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
+
+Algorithm-Basic-Tutorial/ch3/n-queens.i: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+
+Algorithm-Basic-Tutorial/ch3/n-queens.s: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +207,9 @@ help:
 	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj
 	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i
 	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s
+	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.obj
+	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.i
+	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.s
 .PHONY : help
 
 
