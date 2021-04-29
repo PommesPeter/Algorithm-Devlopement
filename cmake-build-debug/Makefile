@@ -129,71 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Algorithm_Devlopement
+# Target rules for targets named Algorithm-Basic-Tutorial
 
 # Build rule for target.
-Algorithm_Devlopement: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Algorithm_Devlopement
-.PHONY : Algorithm_Devlopement
+Algorithm-Basic-Tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Algorithm-Basic-Tutorial
+.PHONY : Algorithm-Basic-Tutorial
 
 # fast build rule for target.
-Algorithm_Devlopement/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/build
-.PHONY : Algorithm_Devlopement/fast
+Algorithm-Basic-Tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
+.PHONY : Algorithm-Basic-Tutorial/fast
 
-Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj: Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj
+Algorithm-Basic-Tutorial/ch3/arrange-numbers.obj: Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj
-
-# target to build an object file
-Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.obj
-
-Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i: Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i
-
-# target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.i
-
-Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s: Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s
-
-# target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp.s
-
-Algorithm-Basic-Tutorial/ch3/n-queens.obj: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.obj
+.PHONY : Algorithm-Basic-Tutorial/ch3/arrange-numbers.obj
 
 # target to build an object file
-Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.obj
+Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.obj
 
-Algorithm-Basic-Tutorial/ch3/n-queens.i: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+Algorithm-Basic-Tutorial/ch3/arrange-numbers.i: Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.i
 
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.i
+.PHONY : Algorithm-Basic-Tutorial/ch3/arrange-numbers.i
 
 # target to preprocess a source file
-Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.i
+Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.i
 
-Algorithm-Basic-Tutorial/ch3/n-queens.s: Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+Algorithm-Basic-Tutorial/ch3/arrange-numbers.s: Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.s
 
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.s
+.PHONY : Algorithm-Basic-Tutorial/ch3/arrange-numbers.s
 
 # target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm_Devlopement.dir\build.make CMakeFiles/Algorithm_Devlopement.dir/Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens.cpp.s
+Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp.s
 
 # Help Target
 help:
@@ -203,13 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Algorithm_Devlopement
-	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.s
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.obj
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.i
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens.s
+	@echo ... Algorithm-Basic-Tutorial
+	@echo ... Algorithm-Basic-Tutorial/ch3/arrange-numbers.obj
+	@echo ... Algorithm-Basic-Tutorial/ch3/arrange-numbers.i
+	@echo ... Algorithm-Basic-Tutorial/ch3/arrange-numbers.s
 .PHONY : help
 
 

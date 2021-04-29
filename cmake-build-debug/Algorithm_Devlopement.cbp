@@ -17,59 +17,59 @@
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Algorithm-Basic-Tutorial">
+				<Option output="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Algorithm-Basic-Tutorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:\mingw64\include"/>
+					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"/>
+					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32"/>
+					<Add directory="."/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm-Basic-Tutorial"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithm-Basic-Tutorial/fast">
+				<Option output="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Algorithm-Basic-Tutorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:\mingw64\include"/>
+					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"/>
+					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32"/>
+					<Add directory="."/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm-Basic-Tutorial/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Algorithm_Devlopement">
-				<Option output="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Algorithm_Devlopement.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:\mingw64\include"/>
-					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"/>
-					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32"/>
-					<Add directory="."/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm_Devlopement"/>
-					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Algorithm_Devlopement/fast">
-				<Option output="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Algorithm_Devlopement.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/Workspace/C++/Algorithm-Developement/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:\mingw64\include"/>
-					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++"/>
-					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++\x86_64-w64-mingw32"/>
-					<Add directory="."/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-					<Add directory="C:\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm_Devlopement/fast"/>
 					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;E:/Workspace/C++/Algorithm-Developement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -86,11 +86,8 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/prefix_sum_1D.cpp">
-			<Option target="Algorithm_Devlopement"/>
-		</Unit>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch3/n-queens.cpp">
-			<Option target="Algorithm_Devlopement"/>
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch3/arrange-numbers.cpp">
+			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
