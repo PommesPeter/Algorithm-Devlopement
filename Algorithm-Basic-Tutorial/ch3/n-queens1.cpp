@@ -1,4 +1,4 @@
-/* Title: bigInteger_minus_template
+/* Title: n queens1
  * Author: @PommesPeter
  * Data:2021-04-29
  * */

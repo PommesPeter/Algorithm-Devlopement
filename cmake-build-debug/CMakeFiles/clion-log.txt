@@ -1,4 +1,10 @@
 E:\JetBrain\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Workspace\C++\Algorithm-Developement
+CMake Warning (dev) at CMakeLists.txt:14 (add_executable):
+  Policy CMP0002 is not set: Logical target names must be globally unique.
+  Run "cmake --help-policy CMP0002" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- Configuring done
 -- Generating done
 -- Build files have been written to: E:/Workspace/C++/Algorithm-Developement/cmake-build-debug
