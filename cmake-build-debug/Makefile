@@ -168,33 +168,6 @@ Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
 .PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
 
-Algorithm-Basic-Tutorial/ch3/n-queens2.obj: Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.obj
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens2.obj
-
-# target to build an object file
-Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.obj
-
-Algorithm-Basic-Tutorial/ch3/n-queens2.i: Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.i
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens2.i
-
-# target to preprocess a source file
-Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.i
-
-Algorithm-Basic-Tutorial/ch3/n-queens2.s: Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.s
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens2.s
-
-# target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens2.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -207,9 +180,6 @@ help:
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.obj
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.i
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.s
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens2.obj
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens2.i
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens2.s
 .PHONY : help
 
 

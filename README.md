@@ -13,6 +13,10 @@ This repo is for learning some algorithm with cplusplus, following the tutorial 
 - [Algorithm Basic Tutorial](./Algorithm-Basic-Tutorial)
     * [Chapter1 Basic Algorithm](./Algorithm-Basic-Tutorial/ch1/BasicAlgorithm.md)
     * [Chapter2 Data Structure](./Algorithm-Basic-Tutorial/ch2)
+    * [Chapter3 Search and Graph](./Algorithm-Basic-Tutorial/ch3)
+    * [Chapter4 Math knowledge](./Algorithm-Basic-Tutorial/ch4)
+    * [Chapter5 DP](./Algorithm-Basic-Tutorial/)
+    * [Chapter6 Greedy](./Algorithm-Basic-Tutorial/)
 
 
 ## Learning Strategy
