@@ -11,6 +11,7 @@ int n, m;
 int q[N], sum[N];
 
 int main() {
+    ios::sync_with_stdio(false); //提高cin cout速度，但不能使用scanf;
     sum[0] = 0, q[0] = 0;
     cin >> n >> m;
     for (int i = 1 ; i <= n; i++ ) cin >> q[i];
