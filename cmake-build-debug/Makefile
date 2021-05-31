@@ -141,6 +141,33 @@ Algorithm-Basic-Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
 .PHONY : Algorithm-Basic-Tutorial/fast
 
+Algorithm-Basic-Tutorial/ch1/k-th-number.obj: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/k-th-number.i: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/k-th-number.s: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
+
 Algorithm-Basic-Tutorial/ch3/n-queens1.obj: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
 
 .PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm-Basic-Tutorial
+	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.s
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.obj
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.i
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.s
