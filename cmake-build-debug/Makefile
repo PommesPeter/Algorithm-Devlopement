@@ -141,6 +141,60 @@ Algorithm-Basic-Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
 .PHONY : Algorithm-Basic-Tutorial/fast
 
+Algorithm-Basic-Tutorial/ch1/difference_1D.obj: Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/difference_1D.i: Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/difference_1D.s: Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s
+
+Algorithm-Basic-Tutorial/ch1/differenece_2D.obj: Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/differenece_2D.i: Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/differenece_2D.s: Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s
+
 Algorithm-Basic-Tutorial/ch1/k-th-number.obj: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
 
 .PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.obj
@@ -231,6 +285,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm-Basic-Tutorial
+	@echo ... Algorithm-Basic-Tutorial/ch1/difference_1D.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/difference_1D.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/difference_1D.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/differenece_2D.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/differenece_2D.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/differenece_2D.s
 	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.obj
 	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.i
 	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.s

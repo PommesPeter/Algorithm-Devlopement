@@ -1,5 +1,8 @@
+/* Title: k-th-number
+ * Author: @PommesPeter
+ * Data:2021-05-30
+ * */
 #include <iostream>
-
 using namespace std;
 
 const int N = 1e6 + 10;

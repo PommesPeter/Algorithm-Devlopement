@@ -86,6 +86,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp">
+			<Option target="Algorithm-Basic-Tutorial"/>
+		</Unit>
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp">
+			<Option target="Algorithm-Basic-Tutorial"/>
+		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp">
 			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
