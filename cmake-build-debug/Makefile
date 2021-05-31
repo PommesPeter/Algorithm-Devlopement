@@ -168,6 +168,33 @@ Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
 .PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
 
+Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.obj: Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.i: Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.s: Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s
+
 Algorithm-Basic-Tutorial/ch3/n-queens1.obj: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
 
 .PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.obj
@@ -207,6 +234,9 @@ help:
 	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.obj
 	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.i
 	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.s
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.obj
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.i
 	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.s

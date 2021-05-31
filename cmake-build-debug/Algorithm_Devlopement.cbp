@@ -89,6 +89,9 @@
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp">
 			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp">
+			<Option target="Algorithm-Basic-Tutorial"/>
+		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp">
 			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
