@@ -86,19 +86,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp">
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp">
 			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp">
-			<Option target="Algorithm-Basic-Tutorial"/>
-		</Unit>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp">
-			<Option target="Algorithm-Basic-Tutorial"/>
-		</Unit>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp">
-			<Option target="Algorithm-Basic-Tutorial"/>
-		</Unit>
-		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp">
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/test/code.cpp">
 			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/CMakeLists.txt">

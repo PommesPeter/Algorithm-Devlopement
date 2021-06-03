@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp
+E:/Workspace/C++/Algorithm-Developement/test/code.cpp
 iostream
+-
+vector
 -
 

@@ -2,11 +2,8 @@ file(REMOVE_RECURSE
   "Algorithm-Basic-Tutorial.exe"
   "Algorithm-Basic-Tutorial.exe.manifest"
   "Algorithm-Basic-Tutorial.pdb"
-  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj"
-  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj"
-  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj"
-  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj"
-  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj"
+  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj"
+  "CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.obj"
   "libAlgorithm-Basic-Tutorial.dll.a"
 )
 

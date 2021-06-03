@@ -141,140 +141,59 @@ Algorithm-Basic-Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
 .PHONY : Algorithm-Basic-Tutorial/fast
 
-Algorithm-Basic-Tutorial/ch1/difference_1D.obj: Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj
+Algorithm-Basic-Tutorial/ch1/split_single_words.obj: Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.obj
-
-# target to build an object file
-Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.obj
-
-Algorithm-Basic-Tutorial/ch1/difference_1D.i: Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.i
-
-# target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.i
-
-Algorithm-Basic-Tutorial/ch1/difference_1D.s: Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.s
-
-# target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/difference_1D.cpp.s
-
-Algorithm-Basic-Tutorial/ch1/differenece_2D.obj: Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.obj
 
 # target to build an object file
-Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.obj
+Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj
 
-Algorithm-Basic-Tutorial/ch1/differenece_2D.i: Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i
+Algorithm-Basic-Tutorial/ch1/split_single_words.i: Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.i
 
 # target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.i
+Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i
 
-Algorithm-Basic-Tutorial/ch1/differenece_2D.s: Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s
+Algorithm-Basic-Tutorial/ch1/split_single_words.s: Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.s
 
 # target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/differenece_2D.cpp.s
+Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s
 
-Algorithm-Basic-Tutorial/ch1/k-th-number.obj: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
+test/code.obj: test/code.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.obj
+.PHONY : test/code.obj
 
 # target to build an object file
-Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.obj
+test/code.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.obj
+.PHONY : test/code.cpp.obj
 
-Algorithm-Basic-Tutorial/ch1/k-th-number.i: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i
+test/code.i: test/code.cpp.i
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.i
-
-# target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.i
-
-Algorithm-Basic-Tutorial/ch1/k-th-number.s: Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.s
-
-# target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/k-th-number.cpp.s
-
-Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.obj: Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.obj
-
-# target to build an object file
-Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.obj
-
-Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.i: Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.i
+.PHONY : test/code.i
 
 # target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.i
+test/code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.i
+.PHONY : test/code.cpp.i
 
-Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.s: Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s
+test/code.s: test/code.cpp.s
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.s
-
-# target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.cpp.s
-
-Algorithm-Basic-Tutorial/ch3/n-queens1.obj: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.obj
-
-# target to build an object file
-Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.obj
-
-Algorithm-Basic-Tutorial/ch3/n-queens1.i: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.i
-
-# target to preprocess a source file
-Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.i
-
-Algorithm-Basic-Tutorial/ch3/n-queens1.s: Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
-
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.s
+.PHONY : test/code.s
 
 # target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch3/n-queens1.cpp.s
+test/code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.s
+.PHONY : test/code.cpp.s
 
 # Help Target
 help:
@@ -285,21 +204,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm-Basic-Tutorial
-	@echo ... Algorithm-Basic-Tutorial/ch1/difference_1D.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/difference_1D.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/difference_1D.s
-	@echo ... Algorithm-Basic-Tutorial/ch1/differenece_2D.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/differenece_2D.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/differenece_2D.s
-	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/k-th-number.s
-	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/prefix_sum_2D.s
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.obj
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.i
-	@echo ... Algorithm-Basic-Tutorial/ch3/n-queens1.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/split_single_words.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/split_single_words.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/split_single_words.s
+	@echo ... test/code.obj
+	@echo ... test/code.i
+	@echo ... test/code.s
 .PHONY : help
 
 
