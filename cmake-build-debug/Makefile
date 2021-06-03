@@ -141,59 +141,32 @@ Algorithm-Basic-Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
 .PHONY : Algorithm-Basic-Tutorial/fast
 
-Algorithm-Basic-Tutorial/ch1/split_single_words.obj: Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj
+Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.obj: Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.obj
-
-# target to build an object file
-Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.obj
-
-Algorithm-Basic-Tutorial/ch1/split_single_words.i: Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.i
-
-# target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.i
-
-Algorithm-Basic-Tutorial/ch1/split_single_words.s: Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s
-
-.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.s
-
-# target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/split_single_words.cpp.s
-
-test/code.obj: test/code.cpp.obj
-
-.PHONY : test/code.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.obj
 
 # target to build an object file
-test/code.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.obj
-.PHONY : test/code.cpp.obj
+Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
 
-test/code.i: test/code.cpp.i
+Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.i: Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i
 
-.PHONY : test/code.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.i
 
 # target to preprocess a source file
-test/code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.i
-.PHONY : test/code.cpp.i
+Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i
 
-test/code.s: test/code.cpp.s
+Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.s: Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s
 
-.PHONY : test/code.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.s
 
 # target to generate assembly for a file
-test/code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/test/code.cpp.s
-.PHONY : test/code.cpp.s
+Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s
 
 # Help Target
 help:
@@ -204,12 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm-Basic-Tutorial
-	@echo ... Algorithm-Basic-Tutorial/ch1/split_single_words.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/split_single_words.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/split_single_words.s
-	@echo ... test/code.obj
-	@echo ... test/code.i
-	@echo ... test/code.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.s
 .PHONY : help
 
 

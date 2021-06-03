@@ -18,11 +18,6 @@ int main() {
     getline(cin, a);
     auto c = split(a, ' ');
     for (auto &i : c) cout << i << endl;
-//    for (int i = 0; i < a.length(); i++) {
-//        int j = i;
-//        while(a[j] != ' ' && j < a.length()) j++;
-//        cout << a.substr(i, j - i) << endl;
-//        i = j;
-//    }
+
     return 0;
 }
