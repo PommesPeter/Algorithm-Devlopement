@@ -9,6 +9,16 @@ using namespace std;
 int lowbit(int x) {
     return x & -x;
 }
+
+int check(int x) {
+    int res = 0;
+    while (x != 0) {
+        if (x & 1)  res++;
+        x >>= 1;
+    }
+    return res;
+}
+
 int main() {
     int n;
     cin >> n;
