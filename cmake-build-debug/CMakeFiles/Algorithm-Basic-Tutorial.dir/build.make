@@ -75,27 +75,27 @@ include CMakeFiles/Algorithm-Basic-Tutorial.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Algorithm-Basic-Tutorial.dir/flags.make
 
-CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj: CMakeFiles/Algorithm-Basic-Tutorial.dir/flags.make
-CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj: ../Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Workspace\C++\Algorithm-Developement\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithm-Basic-Tutorial.dir\Algorithm-Basic-Tutorial\ch1\longest_continuous_non-repetitive_substr.cpp.obj -c E:\Workspace\C++\Algorithm-Developement\Algorithm-Basic-Tutorial\ch1\longest_continuous_non-repetitive_substr.cpp
+CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj: CMakeFiles/Algorithm-Basic-Tutorial.dir/flags.make
+CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj: ../Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Workspace\C++\Algorithm-Developement\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Algorithm-Basic-Tutorial.dir\Algorithm-Basic-Tutorial\ch1\binnumber_count_1.cpp.obj -c E:\Workspace\C++\Algorithm-Developement\Algorithm-Basic-Tutorial\ch1\binnumber_count_1.cpp
 
-CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Workspace\C++\Algorithm-Developement\Algorithm-Basic-Tutorial\ch1\longest_continuous_non-repetitive_substr.cpp > CMakeFiles\Algorithm-Basic-Tutorial.dir\Algorithm-Basic-Tutorial\ch1\longest_continuous_non-repetitive_substr.cpp.i
+CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Workspace\C++\Algorithm-Developement\Algorithm-Basic-Tutorial\ch1\binnumber_count_1.cpp > CMakeFiles\Algorithm-Basic-Tutorial.dir\Algorithm-Basic-Tutorial\ch1\binnumber_count_1.cpp.i
 
-CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\C++\Algorithm-Developement\Algorithm-Basic-Tutorial\ch1\longest_continuous_non-repetitive_substr.cpp -o CMakeFiles\Algorithm-Basic-Tutorial.dir\Algorithm-Basic-Tutorial\ch1\longest_continuous_non-repetitive_substr.cpp.s
+CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Workspace\C++\Algorithm-Developement\Algorithm-Basic-Tutorial\ch1\binnumber_count_1.cpp -o CMakeFiles\Algorithm-Basic-Tutorial.dir\Algorithm-Basic-Tutorial\ch1\binnumber_count_1.cpp.s
 
 # Object files for target Algorithm-Basic-Tutorial
 Algorithm__Basic__Tutorial_OBJECTS = \
-"CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj"
+"CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj"
 
 # External object files for target Algorithm-Basic-Tutorial
 Algorithm__Basic__Tutorial_EXTERNAL_OBJECTS =
 
-Algorithm-Basic-Tutorial.exe: CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
+Algorithm-Basic-Tutorial.exe: CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj
 Algorithm-Basic-Tutorial.exe: CMakeFiles/Algorithm-Basic-Tutorial.dir/build.make
 Algorithm-Basic-Tutorial.exe: CMakeFiles/Algorithm-Basic-Tutorial.dir/linklibs.rsp
 Algorithm-Basic-Tutorial.exe: CMakeFiles/Algorithm-Basic-Tutorial.dir/objects1.rsp

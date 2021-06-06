@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "Algorithm-Basic-Tutorial.exe"
   "Algorithm-Basic-Tutorial.exe.manifest"
   "Algorithm-Basic-Tutorial.pdb"
-  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj"
+  "CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj"
   "libAlgorithm-Basic-Tutorial.dll.a"
 )
 

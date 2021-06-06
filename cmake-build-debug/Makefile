@@ -141,32 +141,32 @@ Algorithm-Basic-Tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/build
 .PHONY : Algorithm-Basic-Tutorial/fast
 
-Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.obj: Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
+Algorithm-Basic-Tutorial/ch1/binnumber_count_1.obj: Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.obj
 
 # target to build an object file
-Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
-.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.obj
+Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj
 
-Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.i: Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i
+Algorithm-Basic-Tutorial/ch1/binnumber_count_1.i: Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.i
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.i
 
 # target to preprocess a source file
-Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i
-.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.i
+Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.i
 
-Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.s: Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s
+Algorithm-Basic-Tutorial/ch1/binnumber_count_1.s: Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s
 
-.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.s
 
 # target to generate assembly for a file
-Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s
-.PHONY : Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.cpp.s
+Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Algorithm-Basic-Tutorial
-	@echo ... Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.obj
-	@echo ... Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.i
-	@echo ... Algorithm-Basic-Tutorial/ch1/longest_continuous_non-repetitive_substr.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/binnumber_count_1.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/binnumber_count_1.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/binnumber_count_1.s
 .PHONY : help
 
 
