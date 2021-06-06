@@ -168,6 +168,60 @@ Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s
 .PHONY : Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.s
 
+Algorithm-Basic-Tutorial/ch1/interval_combination.obj: Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_combination.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/interval_combination.i: Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_combination.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/interval_combination.s: Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_combination.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_combination.cpp.s
+
+Algorithm-Basic-Tutorial/ch1/interval_sum.obj: Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/interval_sum.i: Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/interval_sum.s: Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -180,6 +234,12 @@ help:
 	@echo ... Algorithm-Basic-Tutorial/ch1/binnumber_count_1.obj
 	@echo ... Algorithm-Basic-Tutorial/ch1/binnumber_count_1.i
 	@echo ... Algorithm-Basic-Tutorial/ch1/binnumber_count_1.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/interval_combination.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/interval_combination.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/interval_combination.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/interval_sum.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/interval_sum.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/interval_sum.s
 .PHONY : help
 
 

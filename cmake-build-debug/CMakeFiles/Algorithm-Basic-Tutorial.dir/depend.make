@@ -3,3 +3,5 @@
 
 CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp.obj: ../Algorithm-Basic-Tutorial/ch1/binnumber_count_1.cpp
 
+CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.obj: ../Algorithm-Basic-Tutorial/ch1/interval_sum.cpp
+
