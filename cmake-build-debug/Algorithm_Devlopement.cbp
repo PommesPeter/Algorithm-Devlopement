@@ -95,6 +95,9 @@
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/interval_sum.cpp">
 			<Option target="Algorithm-Basic-Tutorial"/>
 		</Unit>
+		<Unit filename="E:/Workspace/C++/Algorithm-Developement/Algorithm-Basic-Tutorial/ch1/range_of_number.cpp">
+			<Option target="Algorithm-Basic-Tutorial"/>
+		</Unit>
 		<Unit filename="E:/Workspace/C++/Algorithm-Developement/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

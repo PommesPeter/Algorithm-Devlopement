@@ -222,6 +222,33 @@ Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s
 .PHONY : Algorithm-Basic-Tutorial/ch1/interval_sum.cpp.s
 
+Algorithm-Basic-Tutorial/ch1/range_of_number.obj: Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.obj
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/range_of_number.obj
+
+# target to build an object file
+Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.obj
+.PHONY : Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.obj
+
+Algorithm-Basic-Tutorial/ch1/range_of_number.i: Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.i
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/range_of_number.i
+
+# target to preprocess a source file
+Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.i
+.PHONY : Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.i
+
+Algorithm-Basic-Tutorial/ch1/range_of_number.s: Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.s
+
+.PHONY : Algorithm-Basic-Tutorial/ch1/range_of_number.s
+
+# target to generate assembly for a file
+Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Algorithm-Basic-Tutorial.dir\build.make CMakeFiles/Algorithm-Basic-Tutorial.dir/Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.s
+.PHONY : Algorithm-Basic-Tutorial/ch1/range_of_number.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +267,9 @@ help:
 	@echo ... Algorithm-Basic-Tutorial/ch1/interval_sum.obj
 	@echo ... Algorithm-Basic-Tutorial/ch1/interval_sum.i
 	@echo ... Algorithm-Basic-Tutorial/ch1/interval_sum.s
+	@echo ... Algorithm-Basic-Tutorial/ch1/range_of_number.obj
+	@echo ... Algorithm-Basic-Tutorial/ch1/range_of_number.i
+	@echo ... Algorithm-Basic-Tutorial/ch1/range_of_number.s
 .PHONY : help
 
 
